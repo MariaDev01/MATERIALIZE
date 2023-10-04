@@ -4,13 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link type="text/css" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/css/materialize.min.css"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 </head>
 <body>
     
- 
+  
 
    <nav>
          <div class="nav-wrapper">
@@ -19,9 +19,9 @@
                  <i class="material-icons">menu</i>
              </a>
            <ul class="right hide-on-med-and-down">
-            <li><a class="btn-floating pulse"><i class="material-icons"></i></a></li>
-            <li><a class="btn-floating btn-large pulse"><i class="material-icons"></i></a></li>
-            <li><a class="btn-floating btn-large cyan pulse"><i class="material-icons"></i></a>
+            <li><a class="btn-floating pulse"><i class="material-icons">menu</i></a></li>
+            <li><a class="btn-floating btn-large pulse"><i class="material-icons">cloud</i></a></li>
+            <li><a class="btn-floating btn-large cyan pulse"><i class="material-icons">person</i></a>
             </li>
              </ul>
              <ul class="side-nav" id="menu-mobile">
@@ -30,7 +30,9 @@
                  <li><a href="#">Log</a></li>
              </ul>
          </div>
-    </nav> 
+    </nav>
+    
+    
 
     <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/js/materialize.min.js"></script>
@@ -41,13 +43,55 @@
     });
     </script>
 
+<div class="preloader-wrapper big active">
+  <div class="spinner-layer spinner-blue">
+    <div class="circle-clipper left">
+      <div class="circle"></div>
+    </div><div class="gap-patch">
+      <div class="circle"></div>
+    </div><div class="circle-clipper right">
+      <div class="circle"></div>
+    </div>
+  </div>
+
+  <div class="spinner-layer spinner-red">
+    <div class="circle-clipper left">
+      <div class="circle"></div>
+    </div><div class="gap-patch">
+      <div class="circle"></div>
+    </div><div class="circle-clipper right">
+      <div class="circle"></div>
+    </div>
+  </div>
+
+  <div class="spinner-layer spinner-yellow">
+    <div class="circle-clipper left">
+      <div class="circle"></div>
+    </div><div class="gap-patch">
+      <div class="circle"></div>
+    </div><div class="circle-clipper right">
+      <div class="circle"></div>
+    </div>
+  </div>
+
+  <div class="spinner-layer spinner-green">
+    <div class="circle-clipper left">
+      <div class="circle"></div>
+    </div><div class="gap-patch">
+      <div class="circle"></div>
+    </div><div class="circle-clipper right">
+      <div class="circle"></div>
+    </div>
+  </div>
+</div>
+    
 
   <div class="row" style="width: 40%;">
     <div class="col s12 m7">
       <div class="card">
         <div class="card-image">
           <img style="width: 100%;"  src="Images/uma-imagem-de-um-planeta-com-um-buraco-negro-no-centro-e-um-buraco-negro-no-centro.jpg" alt="Terra Plana">
-          <span style="width: 60%;height: 65%;" class="card-title">Terra Plana</span>
+          <span style="width: 60%;height: 65%;color: cadetblue;" class="card-title">Terra Plana</span>
         </div>
         <div class="card-content">
           <p>Essa é a foto de uma Terra Plana, ou seja, comprovando que ela não é redonda</p>
@@ -69,7 +113,7 @@
                 <li class="waves-effect"><a href="#!"><i class="material-icons">chevron_right</i></a></li>
               </ul>
             
-
+              <a class="btn-floating btn-large waves-effect waves-light red"><i class="material-icons">add</i></a>
   
   
 </body>
