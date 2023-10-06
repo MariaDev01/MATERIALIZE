@@ -11,7 +11,7 @@
 <body>
     
   
-
+  <!--NAV BAR-->
    <nav>
          <div style="background-color: #db5a6b;" class="nav-wrapper">
              <a href="https://materializecss.com/" class="brand-logo"><img style="height: 30px;"  src="Images/maria.png" alt=""></a>
@@ -33,6 +33,7 @@
     </nav>
     
     
+    
 
     <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/js/materialize.min.js"></script>
@@ -43,6 +44,7 @@
     });
     </script>
 
+<!--RELOAD-->
 <div class="preloader-wrapper big active">
   <div class="spinner-layer spinner-blue">
     <div class="circle-clipper left">
@@ -85,16 +87,36 @@
   </div>
 </div>
     
+<br>
+<br>
+<br>
 
+  <!--barra de pesquisa-->
+<nav style="width: 10%;">
+  <div style="background-color: #db5a6b;"  class="nav-wrapper">
+    <form>
+      <div class="input-field">
+        <input id="search" type="search" required>
+        <label class="label-icon" for="search"><i class="material-icons">search</i></label>
+        <i class="material-icons">close</i>
+      </div>
+    </form>
+  </div>
+</nav>
+
+  <br>
+  <br>
+
+    <!--CARD-->
   <div class="row" style="width: 40%;">
     <div class="col s12 m7">
       <div class="card">
         <div class="card-image">
-          <img style="width: 100%;"  src="Images/uma-imagem-de-um-planeta-com-um-buraco-negro-no-centro-e-um-buraco-negro-no-centro.jpg" alt="Terra Plana">
-          <span style="width: 60%;height: 65%;color: cadetblue;" class="card-title"></span>
+          <img style="width: 100%;"  src="Images/uma-imagem-de-um-planeta-com-um-buraco-negro-no-centro-e-um-buraco-negro-no-centro.jpg" alt="Terra com buraco negro">
+          <span style="width: 60%;height: 65%;color: rgb(255, 255, 255);" class="card-title"></span>
         </div>
         <div class="card-content">
-       <h5>Terra hiper-plana</h5>   <p>Essa é a foto de uma Terra Plana, ou seja, comprovando que ela não é redonda</p>
+       <h5>Terra</h5>   <p>Essa é a foto de uma Terra com um buraco negro em seu centro</p>
         </div>
         <div class="card-action">
           <a target="_blank" href="https://br.freepik.com/fotos-gratis/uma-imagem-de-um-planeta-com-um-buraco-negro-no-centro-e-um-buraco-negro-no-centro_39915787.htm">Clique aqui para obter a imagem</a>
@@ -103,6 +125,7 @@
     </div>
   </div>
 
+        <!--NUMERAÇÃO DAS PAGINAS-->
               <ul class="pagination">
                 <li class="disabled"><a href="#!"><i class="material-icons">chevron_left</i></a></li>
                 <li class="active"><a href="#!">1</a></li>
